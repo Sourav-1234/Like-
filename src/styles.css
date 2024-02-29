@@ -21,6 +21,16 @@ body{
     margin-bottom:5px;
     color: var(--default-color);
     background-color: white;
-    
+    }
 
-}
+    .likedBtn:hover{
+        border-color: var(--active-color);
+        color: var(--active-color);
+
+    }
+
+    .liked{
+        background-color:var(--active-color);
+        border-color: var(--active-color);
+        color: #fff;
+    }
